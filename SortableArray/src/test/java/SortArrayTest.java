@@ -12,4 +12,10 @@ public class SortArrayTest {
         assertArrayEquals(expectedOutput, SortArray.integersSort(input));
     }
    
+    @Test
+    public void testSortStrings() {
+    String[] input = {"banana", "apple", "cherry"};
+    String[] expected = {"apple", "banana", "cherry"};
+    assertArrayEquals(expected, SortArray.stringsSort(input));
+}   
 }

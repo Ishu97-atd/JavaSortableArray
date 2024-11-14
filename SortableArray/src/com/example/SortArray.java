@@ -8,4 +8,8 @@ public class SortArray {
         return numbers;
     }
   
+    public static String[] stringsSort(String[] array) {
+        Arrays.sort(array);
+        return array;
+    }
 }
